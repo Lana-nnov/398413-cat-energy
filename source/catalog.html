@@ -5,7 +5,7 @@
     <title>HTML Academy: Кэт энерджи - каталог товаров</title>
   </head>
   <body>
-    <header class="page-header">
+    <header class="header">
       <nav class="main-nav">
         <a class="main-nav__logo" href="index.html">
           <img class="main-nav__img main-nav__img--logo" src="http://placehold.it/33x38" alt="Логотип Кэт Энерджи">
@@ -21,7 +21,7 @@
             <a class="site-list__link" href="index.html">Главная</a>
           </li>
           <li class="site-list__item site-list__item--active">
-            <a class="site-list__link site-list__link--active">Каталог продукции</a>
+            <a class="site-list__link">Каталог продукции</a>
           </li>
           <li class="site-list__item">
             <a class="site-list__link" href="form.html">Подбор программы</a>
@@ -29,228 +29,244 @@
         </ul>
       </nav>
     </header>
-    <main class="page-main">
-      <h1 class="page-main__title">Каталог продукции</h1>
+    <main class="main">
+      <h1 class="main__title">Каталог продукции</h1>
       <section class="main-products">
-        <article class="main-products__item shop">
-          <a class="shop__link" href="chicken-small.html">
-            <h2 class="shop__title">Cat Energy Pro 500г</h2>
+        <article class="main-products__item product">
+          <a class="product__link" href="chicken-small.html">
+            <img class="product__img" src="http://placehold.it/140x144" alt="банка Cat Energy Pro 500г">
           </a>
-          <a class="shop__link" href="chicken-small.html">
-            <img class="shop__img" src="http://placehold.it/140x144" alt="банка Cat Energy Pro 500г">
-          </a>
-          <ul class="shop__list">
-            <li class="shop__item">
-              <p class="shop__title">Объем</p>
-              <p class="shop__param">500 г</p>
+          <a class="product__link" href="chicken-small.html">
+            <h2 class="product__title">Cat Energy Pro 500г</h2>
+          </a>         
+          <ul class="product__list">
+            <li class="product__item">
+              <p class="product__title">Объем</p>
+              <p class="product__param">500 г</p>
             </li>
-            <li class="shop__item">
-              <p class="shop__title">Вкус</p>
-              <p class="shop__param">Курица</p>
+            <li class="product__item">
+              <p class="product__title">Вкус</p>
+              <p class="product__param">Курица</p>
             </li>
-            <li class="shop__item">
-              <p class="shop__title">Цена</p>
-              <p class="shop__param">700 Р</p>
+            <li class="product__item">
+              <p class="product__title">Цена</p>
+              <p class="product__param">700 Р</p>
             </li>
           </ul>
-          <a class="shop__busket button" href="#">Заказать</a>
+          <a class="product__basket button" href="#">Заказать</a>
         </article>
-        <article class="main-products__item shop">
-          <a class="shop__link" href="chicken-big.html">
-            <h2 class="shop__title">Cat Energy Pro 1000г</h2>
+        <article class="main-products__item product">
+          <a class="product__link" href="chicken-big.html">
+            <h2 class="product__title">Cat Energy Pro 1000г</h2>
           </a>
-          <a class="shop__link" href="chicken-big.html">
-            <img class="shop__img" src="http://placehold.it/140x144" alt="банка Cat Energy Pro 1000г">
+          <a class="product__link" href="chicken-big.html">
+            <img class="product__img" src="http://placehold.it/140x144" alt="банка Cat Energy Pro 1000г">
           </a>
-          <ul class="shop__list">
-            <li class="shop__item">
-              <p class="shop__title">Объем</p>
-              <p class="shop__param">1000 г</p>
+          <ul class="product__list">
+            <li class="product__item">
+              <p class="product__title">Объем</p>
+              <p class="product__param">1000 г</p>
             </li>
-            <li class="shop__item">
-              <p class="shop__title">Вкус</p>
-              <p class="shop__param">Курица</p>
+            <li class="product__item">
+              <p class="product__title">Вкус</p>
+              <p class="product__param">Курица</p>
             </li>
-            <li class="shop__item">
-              <p class="shop__title">Цена</p>
-              <p class="shop__param">1000 Р</p>
+            <li class="product__item">
+              <p class="product__title">Цена</p>
+              <p class="product__param">1000 Р</p>
             </li>
           </ul>
-          <a class="shop__busket button" href="#">Заказать</a>
+          <a class="product__basket button" href="#">Заказать</a>
         </article>
-        <article class="main-products__item shop">
-          <a class="shop__link" href="fish-small.html">
-            <h2 class="shop__title">Cat Energy Pro 500г</h2>
+        <article class="main-products__item product">
+          <a class="product__link" href="fish-small.html">
+            <h2 class="product__title">Cat Energy Pro 500г</h2>
           </a>
-          <a class="shop__link" href="fish-small.html">
-            <img class="shop__img" src="http://placehold.it/140x144" alt="банка Cat Energy Pro 500г">
+          <a class="product__link" href="fish-small.html">
+            <img class="product__img" src="http://placehold.it/140x144" alt="банка Cat Energy Pro 500г">
           </a>
-          <ul class="shop__list">
-            <li class="shop__item">
-              <p class="shop__title">Объем</p>
-              <p class="shop__param">500 г</p>
+          <ul class="product__list">
+            <li class="product__item">
+              <p class="product__title">Объем</p>
+              <p class="product__param">500 г</p>
             </li>
-            <li class="shop__item">
-              <p class="shop__title">Вкус</p>
-              <p class="shop__param">Рыба</p>
+            <li class="product__item">
+              <p class="product__title">Вкус</p>
+              <p class="product__param">Рыба</p>
             </li>
-            <li class="shop__item">
-              <p class="shop__title">Цена</p>
-              <p class="shop__param">700 Р</p>
+            <li class="product__item">
+              <p class="product__title">Цена</p>
+              <p class="product__param">700 Р</p>
             </li>
           </ul>
-          <a class="shop__busket button" href="#">Заказать</a>
+          <a class="product__basket button" href="#">Заказать</a>
         </article>
-        <article class="main-products__item shop">
-          <a class="shop__link" href="fish-big.html">
-            <h2 class="shop__title">Cat Energy Pro 1000г</h2>
+        <article class="main-products__item product">
+          <a class="product__link" href="fish-big.html">
+            <h2 class="product__title">Cat Energy Pro 1000г</h2>
           </a>
-          <a class="shop__link" href="fish-big.html">
-            <img class="shop__img" src="http://placehold.it/140x144" alt="банка Cat Energy Pro 1000г">
+          <a class="product__link" href="fish-big.html">
+            <img class="product__img" src="http://placehold.it/140x144" alt="банка Cat Energy Pro 1000г">
           </a>
-          <ul class="shop__list">
-            <li class="shop__item">
-              <p class="shop__title">Объем</p>
-              <p class="shop__param">1000 г</p>
+          <ul class="product__list">
+            <li class="product__item">
+              <p class="product__title">Объем</p>
+              <p class="product__param">1000 г</p>
             </li>
-            <li class="shop__item">
-              <p class="shop__title">Вкус</p>
-              <p class="shop__param">Рыба</p>
+            <li class="product__item">
+              <p class="product__title">Вкус</p>
+              <p class="product__param">Рыба</p>
             </li>
-            <li class="shop__item">
-              <p class="shop__title">Цена</p>
-              <p class="shop__param">1000 Р</p>
+            <li class="product__item">
+              <p class="product__title">Цена</p>
+              <p class="product__param">1000 Р</p>
             </li>
           </ul>
-          <a class="shop__busket button" href="#">Заказать</a>
+          <a class="product__basket button" href="#">Заказать</a>
         </article>
-        <article class="main-products__item shop">
-          <a class="shop__link" href="buckwheat-small.html">
-            <h2 class="shop__title">Cat Energy Slim 500г</h2>
+        <article class="main-products__item product">
+          <a class="product__link" href="buckwheat-small.html">
+            <h2 class="product__title">Cat Energy Slim 500г</h2>
           </a>
-          <a class="shop__link" href="buckwheat-small.html">
-            <img class="shop__img" src="http://placehold.it/140x144" alt="банка Cat Energy Pro 500г">
+          <a class="product__link" href="buckwheat-small.html">
+            <img class="product__img" src="http://placehold.it/140x144" alt="банка Cat Energy Pro 500г">
           </a>
-          <ul class="shop__list">
-            <li class="shop__item">
-              <p class="shop__title">Объем</p>
-              <p class="shop__param">500 г</p>
+          <ul class="product__list">
+            <li class="product__item">
+              <p class="product__title">Объем</p>
+              <p class="product__param">500 г</p>
             </li>
-            <li class="shop__item">
-              <p class="shop__title">Вкус</p>
-              <p class="shop__param">Гречка</p>
+            <li class="product__item">
+              <p class="product__title">Вкус</p>
+              <p class="product__param">Гречка</p>
             </li>
-            <li class="shop__item">
-              <p class="shop__title">Цена</p>
-              <p class="shop__param">400 Р</p>
+            <li class="product__item">
+              <p class="product__title">Цена</p>
+              <p class="product__param">400 Р</p>
             </li>
           </ul>
-          <a class="shop__busket button" href="#">Заказать</a>
+          <a class="product__basket button" href="#">Заказать</a>
         </article>
-        <article class="main-products__item shop">
-          <a class="shop__link" href="buckwheat-big.html">
-            <h2 class="shop__title">Cat Energy Slim 1000г</h2>
+        <article class="main-products__item product">
+          <a class="product__link" href="buckwheat-big.html">
+            <h2 class="product__title">Cat Energy Slim 1000г</h2>
           </a>
-          <a class="shop__link" href="bickwheat-big.html">
-            <img class="shop__img" src="http://placehold.it/140x144" alt="банка Cat Energy Pro 1000г">
+          <a class="product__link" href="bickwheat-big.html">
+            <img class="product__img" src="http://placehold.it/140x144" alt="банка Cat Energy Pro 1000г">
           </a>
-          <ul class="shop__list">
-            <li class="shop__item">
-              <p class="shop__title">Объем</p>
-              <p class="shop__param">1000 г</p>
+          <ul class="product__list">
+            <li class="product__item">
+              <p class="product__title">Объем</p>
+              <p class="product__param">1000 г</p>
             </li>
-            <li class="shop__item">
-              <p class="shop__title">Вкус</p>
-              <p class="shop__param">Гречка</p>
+            <li class="product__item">
+              <p class="product__title">Вкус</p>
+              <p class="product__param">Гречка</p>
             </li>
-            <li class="shop__item">
-              <p class="shop__title">Цена</p>
-              <p class="shop__param">700 Р</p>
+            <li class="product__item">
+              <p class="product__title">Цена</p>
+              <p class="product__param">700 Р</p>
             </li>
           </ul>
-          <a class="shop__busket button" href="#">Заказать</a>
+          <a class="product__basket button" href="#">Заказать</a>
         </article>
-        <article class="main-products__item shop">
-          <a class="shop__link" href="rice-small.html">
-            <h2 class="shop__title">Cat Energy Slim 500г</h2>
+        <article class="main-products__item product">
+          <a class="product__link" href="rice-small.html">
+            <h2 class="product__title">Cat Energy Slim 500г</h2>
           </a>
-          <a class="shop__link" href="rice-small.html">
-            <img class="shop__img" src="http://placehold.it/140x144" alt="банка Cat Energy Pro 500г">
+          <a class="product__link" href="rice-small.html">
+            <img class="product__img" src="http://placehold.it/140x144" alt="банка Cat Energy Pro 500г">
           </a>
-          <ul class="shop__list">
-            <li class="shop__item">
-              <p class="shop__title">Объем</p>
-              <p class="shop__param">500 г</p>
+          <ul class="product__list">
+            <li class="product__item">
+              <p class="product__title">Объем</p>
+              <p class="product__param">500 г</p>
             </li>
-            <li class="shop__item">
-              <p class="shop__title">Вкус</p>
-              <p class="shop__param">Рис</p>
+            <li class="product__item">
+              <p class="product__title">Вкус</p>
+              <p class="product__param">Рис</p>
             </li>
-            <li class="shop__item">
-              <p class="shop__title">Цена</p>
-              <p class="shop__param">500 Р</p>
+            <li class="product__item">
+              <p class="product__title">Цена</p>
+              <p class="product__param">500 Р</p>
             </li>
           </ul>
-          <a class="shop__busket button" href="#">Заказать</a>
+          <a class="product__basket button" href="#">Заказать</a>
         </article>
         <div class="main-products__more">
-          <b class="main-products__promo">Показать еще 100500 товаров</b>
+          <a class="main-products__show-else" href="#">
+            <span class="visually-hidden">Показать больше товаров</span>
+          </a>
+          <b class="main-products__promo-title">Показать еще 100500 товаров</b>
           <p class="main-products__info">На самом деле вкусов гораздо больше!</p>
-          <a class="main-products__to-all button" href="#">Показать все</a>
+          <a class="main-products__show-all button" href="#">Показать все</a>
         </div>
       </section>
       <section class="add-products">
-        <article class="add products add">
-          <a class="add__link" href="shugar.html">
-            <h3 class="add__title">Сахарозаменитель</h3>
+        <article class="add-products product">
+          <a class="product__link" href="shugar.html">
+            <h2 class="product__title">Сахарозаменитель</h2>
           </a>
-          <div class="add__info">
-            <p class="add__value">1 упаковка</p>
-            <p class="add__price">100 Р</p>
-          </div>
-          <a class="add__busket button" href="#">Заказать</a>
+          <ul class="product__list">
+            <li class="product__item">
+              <p class="product__title">1 упаковка</p>
+              <p class="product__param">100 Р</p>
+            </li>  
+          </ul>
+          <a class="product__basket button" href="#">Заказать</a>
         </article>
-        <article class="add products add">
-          <a class="add__link" href="water.html">
-            <h3 class="add__title">Питьевая вода</h3>
+        <article class="add products product">
+          <a class="product__link" href="water.html">
+            <h2 class="product__title">Питьевая вода</h2>
           </a>
-          <div class="add__info">
-            <p class="add__value">5 литров</p>
-            <p class="add__price">50 Р</p>
-          </div>
-          <a class="add__busket button" href="#">Заказать</a>
+          <ul class="product__list">
+            <li class="product__item">
+              <p class="product__title">5 литров</p>
+              <p class="product__param">50 Р</p>
+            </li>  
+          </ul>
+          <a class="product__basket button" href="#">Заказать</a>
         </article>
-        <article class="add products add">
-          <a class="add__link" href="milk.html">
-            <h3 class="add__title">Молоко</h3>
+        <article class="add products product">
+          <a class="product__link" href="milk.html">
+            <h2 class="product__title">Молоко</h2>
           </a>
-          <div class="add__info">
-            <p class="add__value">1 литр</p>
-            <p class="add__price">100 Р</p>
-          </div>
-          <a class="add__busket button" href="#">Заказать</a>
+          <ul class="product__list">
+            <li class="product__item">
+              <p class="product__title">1 литр</p>
+              <p class="product__param">100 Р</p>
+            </li>            
+          </ul>
+          <a class="product__basket button" href="#">Заказать</a>
         </article>
-        <article class="add products add">
-          <a class="add__link" href="vitamins.html">
-            <h3 class="add__title">Витамины</h3>
+        <article class="add products product">
+          <a class="product__link" href="vitamins.html">
+            <h2 class="product__title">Витамины</h2>
           </a>
-          <div class="add__info">
-            <p class="add__value">1 упаковка (30г)</p>
-            <p class="add__price">300 Р</p>
-          </div>
-          <a class="add__busket button" href="#">Заказать</a>
+          <ul class="product__list">
+            <li class="product__item">
+              <p class="product__title">1 упаковка (30г)</p>
+              <p class="product__param">300 Р</p>
+            </li>  
+          </ul>
+          <a class="product__basket button" href="#">Заказать</a>
         </article>
       </section>
-      <a class="page-main__promo" href="#">
-        <img class="page-main__promo-img" src="http://placehold.it/280x289" alt="Выгодное предложение от Кэт Энерджи">
-        <p class="visually-hidden">Закажите все и получите чехол для кота в подарок!</p>
-      </a>
+      <a class="main__promo" href="#">Закажите все и получите чехол для кота в подарок!</a>
     </main>
-    <footer class="page-footer">
-      <a class="page-footer__logo" href="index.html">
-        <img class="page-footer__logo-img" src="http://placehold.it/128x24" alt="Логотип Кэт Энерджи">
+    <footer class="footer">
+      <section class="contacts">
+        <h2 class="visually-hidden">Наши контакты</h2>
+        <b class="contacts__content">Приглашаем к сотрудничеству дилеров</b>
+        <p class="contacts__info">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        <a class="contacts__link" href="#">
+          <img class="contacts__img" src="http://placehold.it/320x400" alt="Как проехать - карта">
+        </a>
+      </section>
+      <a class="footer__logo" href="index.html">
+        <img class="footer__logo-img" src="http://placehold.it/128x24" alt="Логотип Кэт Энерджи">
       </a>
-      <ul class="page-footer__social social">
+      <ul class="footer__social social">
         <li class="social__item">
           <a class="social__link social__link--vk" href="#">
             <span class="visually-hidden">Мы в Вконтакте</span>
@@ -267,10 +283,10 @@
           </a>
         </li>
       </ul>
-      <div class="page-footer__copywrite copywrite">
-        <a class="copywrite__link" href="https://htmlacademy.ru/intensive/adaptive">HTML-academy</a>
-        <a class="copywrite__logo" href="https://htmlacademy.ru/intensive/adaptive">
-          <img class="copywrite__logo-img" src="http://placehold.it/27x34" alt="Логотип HTML-academy">
+      <div class="footer__copyrite copyrite">
+        <a class="copyrite__link" href="https://htmlacademy.ru/intensive/adaptive" target="blank">HTML-academy</a>
+        <a class="copyrite__logo" href="https://htmlacademy.ru/intensive/adaptive" target="blank">
+          <img class="copyrite__logo-img" src="http://placehold.it/27x34" alt="Логотип HTML-academy">
         </a>
       </div>
     </footer>
