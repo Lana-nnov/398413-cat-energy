@@ -1,0 +1,93 @@
+.form {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.form__info {
+  padding: 0;
+  padding-right: 50px;
+  margin: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.form__field {
+  padding: 0;
+  padding-top: 30px;
+  margin: 0;
+  border: none;
+  outline: 1px solid green;
+}
+
+.form__field--check {
+  margin-bottom: 15px;
+}
+
+.form__field--textarea {
+  padding-top: 13px;
+}
+
+.form__title {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 35px;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.form-text__section-first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  outline: 1px solid green;
+}
+
+.form__label {
+  margin-right: 15px;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.form__text {
+  flex-grow: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.form-text__section-second {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.form__radio {
+  margin-right: 30px;
+}
+
+.form__comment {
+  width: 275px;
+  height: 140px;
+}
+
+.form__check {
+  margin-right: 30px;
+}
+
+.form__send {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+}
+
+.form__note {
+  padding: 0;
+  padding-bottom: 30px;
+  margin: 0;
+  text-align: center;
+}

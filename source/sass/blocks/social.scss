@@ -1,0 +1,18 @@
+.social {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-left: 75px;
+  padding-right: 75px;
+  list-style: none;
+  border-bottom: 1px solid blue;
+}
+
+.social__item {
+  width: 20px;
+  height: 20px;
+  outline: 1px solid green;
+}

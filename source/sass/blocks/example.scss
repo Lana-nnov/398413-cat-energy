@@ -1,0 +1,87 @@
+.example {
+  background-color: #f2f2f2;
+}
+
+.example__wrapper {
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.example__title {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 36px;
+  line-height: 60px;
+  color: #111111;
+}
+
+.example__description {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 28px;
+  letter-spacing: 0.08em;
+}
+
+.example__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.example__item {
+  width: 125px;
+  padding-top: 13px;
+  text-align: center;
+  outline: 1px solid green;
+}
+.example__value {
+  display: block;
+  padding-bottom: 7px;
+  font-size: 24px;
+  line-height: 24px;
+  color: #111111;
+  text-transform: uppercase;
+}
+
+.example__field {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.example__sum {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 35px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111111;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.example__img {
+  margin-bottom: 30px;
+}
+
+.example__wrapper-controls {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 33px;
+}
+
+.example__toggle {
+  width: 50px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111111;
+  text-transform: uppercase;
+}

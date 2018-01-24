@@ -1,0 +1,33 @@
+.promo {
+  position: relative;
+  min-height: 480px;
+  margin-bottom: 20px;
+  background-image: url("../img/index-can-mobile@1x.png"), url("../img/index-background-mobile@1x.jpg");
+  background-position: center 165px, 0 0;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  outline: 1px solid red;
+}
+
+.promo__title {
+  padding: 0;
+  padding-top: 25px;
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.promo__slogan {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.promo__link {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
