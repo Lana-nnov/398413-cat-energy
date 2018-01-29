@@ -1,19 +1,19 @@
 .button {
-  font: inherit;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
   background-color: #68b738;
   padding-top: 10px;
   padding-bottom: 10px;
-}
+  border-radius: 0;
 
-.button:hover {
-  color: #ffffff;
-  background-color: #5eaa2f;
-}
+  &:hover {
+    color: #ffffff;
+    background-color: #5eaa2f;
+  }
 
-.button:active {
-  color: rgba(255, 255, 255, 0.3);
-  background-color: #5eaa2f;
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #5eaa2f;
+  }
 }

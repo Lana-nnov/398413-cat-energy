@@ -3,33 +3,30 @@
 }
 
 .example__wrapper {
-  padding-top: 15px;
+  padding-top: 1px;
   padding-left: 20px;
   padding-right: 20px;
+  @include container;
 }
 
 .example__title {
-  padding: 0;
-  margin: 0;
-  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-bottom: 22px;
   font-size: 36px;
   line-height: 60px;
-  color: #111111;
+  font-weight: 400;
+  color: #111;
 }
 
 .example__description {
-  padding: 0;
-  margin: 0;
   margin-bottom: 28px;
-  letter-spacing: 0.08em;
+  font-family: Arial;
 }
 
 .example__list {
   display: flex;
   justify-content: space-between;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 20px;
+  padding-left: 0;
   list-style: none;
 }
 
@@ -42,47 +39,61 @@
 
 .example__value {
   display: block;
-  padding-bottom: 7px;
+  padding-bottom: 5px;
   font-size: 24px;
   line-height: 24px;
-  color: #111111;
+  color: #111;
   text-transform: uppercase;
 }
 
 .example__field {
-  padding: 0;
-  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
   font-size: 12px;
   line-height: 12px;
+  font-family: Arial;
 }
 
 .example__sum {
-  padding: 0;
-  margin: 0;
   margin-bottom: 35px;
   font-size: 14px;
   line-height: 20px;
-  color: #111111;
+  color: #111;
   text-transform: uppercase;
   text-align: center;
 }
 
 .example__img {
+  display: block;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
 }
 
 .example__wrapper-controls {
   display: flex;
   justify-content: space-between;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-bottom: 33px;
+  padding-bottom: 38px;
+  margin-right: 30px;
+  margin-left: 30px;
+  @include container;
 }
 
 .example__toggle {
-  width: 50px;
+  width: 85px;
   font-size: 16px;
   line-height: 20px;
-  color: #111111;
+  color: #111;
   text-transform: uppercase;
+  outline: 1px solid red;
+
+  &--left {
+    text-align: right;
+  }
+}
+
+.example__controls {
+  width: 120px;
+  outline: 1px solid red;
 }

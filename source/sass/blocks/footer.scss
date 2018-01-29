@@ -1,4 +1,5 @@
 .footer {
+  background-color: #f2f2f2;
   outline: 1px solid red;
 }
 
@@ -6,12 +7,13 @@
   padding-left: 20px;
   padding-right: 20px;
   background-color: #f2f2f2;
+  @include container;
 }
 
 .footer__logo {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 33px;
+  padding-bottom: 27px;
   text-align: center;
   border-bottom: 1px solid blue;
 }

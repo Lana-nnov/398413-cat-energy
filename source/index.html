@@ -6,7 +6,7 @@
     <title>HTML Academy: Кэт энерджи</title>
   </head>
   <body>
-    <header class="header container">
+    <header class="header">
       <nav class="main-nav">
         <div class="main-nav__logo-wrapper">
           <a class="main-nav__logo">
@@ -32,10 +32,12 @@
         </ul>
       </nav>
     </header>
-    <main class="main container">
+    <main class="main">
       <section class="promo">
-        <h1 class="promo__title">Функциональное питание для котов</h1>
-        <p class="promo__slogan">Занялся собой? Займись котом!</p>
+        <div class="promo__text">
+          <h1 class="promo__title">Функциональное питание для котов</h1>
+          <p class="promo__slogan">Занялся собой? Займись котом!</p>
+        </div>
         <a class="promo__link button" href="form.html">Подобрать программу</a>
       </section>
       <section class="programs">
@@ -88,53 +90,49 @@
         </div>
         <img class="example__img" src="img/before-mobile@1x.png" alt="Толстый кот Борис">
         <div class="example__wrapper-controls">
-          <a class="example__toggle" href="#">Было</a>
+          <a class="example__toggle example__toggle--left" href="#">Было</a>
           <div class="example__controls">
           </div>
-          <a class="example__toggle" href="#">Стало</a>
+          <a class="example__toggle example__toggle--right" href="#">Стало</a>
         </div>
       </section>
     </main>
     <footer class="footer">
       <section class="contacts contacts--main-page">
-        <div class="container">
-          <div class="contacts__wrapper contacts__wrapper--main-page">
-            <h2 class="visually-hidden">Наши контакты</h2>
-            <b class="contacts__content">Приглашаем к сотрудничеству дилеров</b>
-            <p class="contacts__info">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
-          </div>
+        <div class="contacts__wrapper contacts__wrapper--main-page">
+          <h2 class="visually-hidden">Наши контакты</h2>
+          <b class="contacts__content">Приглашаем к сотрудничеству дилеров!</b>
+          <p class="contacts__info">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
         </div>
         <iframe class="contacts__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123775!2d30.320894615835055!3d59.938796869048254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2sua!4v1507960523808" allowfullscreen="">
         </iframe>
       </section>
-      <div class="container">
-        <div class="footer__wrapper">
-          <a class="footer__logo" href="#">
-            <img class="footer__logo-img" src="img/logo-footer.svg" width="128" height="24" alt="Логотип Кэт Энерджи">
-          </a>
-          <ul class="footer__social social">
-            <li class="social__item">
-              <a class="social__link social__link--vk" href="#">
-                <span class="visually-hidden">Мы в Вконтакте</span>
-              </a>
-            </li>
-            <li class="social__item">
-              <a class="social__link social__link--insta" href="#">
-                <span class="visually-hidden">Мы в Инстаграме</span>
-              </a>
-            </li>
-            <li class="social__item">
-              <a class="social__link social__link--fb" href="#">
-                <span class="visually-hidden">Мы в Фейсбуке</span>
-              </a>
-            </li>
-          </ul>
-          <div class="footer__copyrite copyrite">
-            <a class="copyrite__link" href="https://htmlacademy.ru/intensive/adaptive" target="blank">HTML-academy</a>
-            <a class="copyrite__logo" href="https://htmlacademy.ru/intensive/adaptive" target="blank">
-              <img class="copyrite__logo-img" src="http://placehold.it/27x34" alt="Логотип HTML-academy">
+      <div class="footer__wrapper">
+        <a class="footer__logo" href="#">
+          <img class="footer__logo-img" src="img/logo-footer.svg" width="128" height="24" alt="Логотип Кэт Энерджи">
+        </a>
+        <ul class="footer__social social">
+          <li class="social__item">
+            <a class="social__link social__link--vk" href="#">
+              <span class="visually-hidden">Мы в Вконтакте</span>
             </a>
-          </div>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--insta" href="#">
+              <span class="visually-hidden">Мы в Инстаграме</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--fb" href="#">
+              <span class="visually-hidden">Мы в Фейсбуке</span>
+            </a>
+          </li>
+        </ul>
+        <div class="footer__copyright copyright">
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive" target="blank">HTML-academy</a>
+          <a class="copyright__logo" href="https://htmlacademy.ru/intensive/adaptive" target="blank">
+            <img class="copyright__logo-img" src="http://placehold.it/27x34" width="27" height="34" alt="Логотип HTML-academy">
+          </a>
         </div>
       </div>
     </footer>

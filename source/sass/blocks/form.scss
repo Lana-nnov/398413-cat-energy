@@ -1,12 +1,9 @@
 .form {
-  padding-left: 20px;
-  padding-right: 20px;
+  @include container;
 }
 
 .form__info {
-  padding: 0;
   padding-right: 50px;
-  margin: 0;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
@@ -17,32 +14,34 @@
   margin: 0;
   border: none;
   outline: 1px solid green;
-}
 
-.form__field--check {
-  margin-bottom: 15px;
-}
+  &--check {
+    margin-bottom: 15px;
+  }
 
-.form__field--textarea {
-  padding-top: 13px;
+  &--textarea {
+    padding-top: 10px;
+  }
 }
 
 .form__title {
-  padding: 0;
-  margin: 0;
-  margin-bottom: 35px;
+  margin-top: 0;
+  margin-bottom: 33px;
   font-size: 24px;
   line-height: 24px;
+  font-weight: 400;
 }
 
 .form-text__section-first {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   outline: 1px solid green;
+
+  &:last-child {
+    margin-bottom: 18px;
+  }
 }
 
 .form__label {
@@ -54,13 +53,14 @@
 
 .form__text {
   flex-grow: 1;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 11px;
+  padding-bottom: 12px;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
 }
 
 .form-text__section-second {
-  padding: 0;
-  margin: 0;
   margin-bottom: 25px;
 }
 
@@ -71,23 +71,29 @@
 .form__comment {
   width: 275px;
   height: 140px;
+  font-size: 16px;
+  line-height: 38px;
+  text-transform: uppercase;
 }
 
 .form__check {
   margin-right: 30px;
 }
 
+.form__field--check .form__title{
+  margin-bottom: 40px;
+}
+
 .form__send {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   font-size: 16px;
   line-height: 20px;
   border: none;
 }
 
 .form__note {
-  padding: 0;
-  padding-bottom: 30px;
-  margin: 0;
+  margin-bottom: 30px;
   text-align: center;
+  font-family: Arial;
 }

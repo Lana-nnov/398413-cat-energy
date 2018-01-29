@@ -2,22 +2,23 @@
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 45px;
+  @include container;
   outline: 1px solid red;
 }
 
 .advantages__title {
-  padding: 0;
-  margin: 0;
+  margin-top: 20px;
   margin-bottom: 30px;
   font-size: 35px;
   line-height: 60px;
-  color: #111111;
+  font-weight: 400;
+  color: #111;
 }
 
 .advantages__list {
-  padding: 0;
-  margin: 0;
+  padding-left: 0;
   list-style: none;
+  font-family: Arial;
 }
 
 .advantages__item {

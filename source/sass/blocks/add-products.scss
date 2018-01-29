@@ -1,14 +1,14 @@
 .add-products {
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 40px;
 }
 
 .add-products__title {
-  padding-top: 30px;
-  padding-bottom: 33px;
-  margin: 0;
+  margin-bottom: 34px;
   font-size: 24px;
-  line-height: 24px;
-  color: #111111;
+  line-height: 30px;
+  color: #111;
+  @include container;
   border-bottom: 1px solid blue;
 }

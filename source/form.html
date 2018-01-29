@@ -6,7 +6,7 @@
     <title>HTML Academy: Кэт энерджи - заказ товаров</title>
   </head>
   <body>
-    <header class="header container">
+    <header class="header">
       <nav class="main-nav">
         <div class="main-nav__logo-wrapper">
           <a class="main-nav__logo" href="index.html">
@@ -32,50 +32,50 @@
         </ul>
       </nav>
     </header>
-    <main class="main container">
-      <h1 class="main__title">Подбор программы</h1>
+    <main class="main">
+      <h1 class="main__title main__title--form">Подбор программы</h1>
       <form class="form" method="get" action="https://echo.htmlacademy.ru">
         <p class="form__info">Заполните анкету, и мы подберем программу питания для вашего кота</p>
         <fieldset class="form__field">
           <h2 class="visually-hidden">Данные о коте</h2>
-          <p class="form-text__section-first">
+          <div class="form-text__section-first">
             <label class="form__label" for="name_field">Имя<sup>*</sup></label>
             <input class="form__text" type="text" name="name" id="name_field" placeholder="Барсик" required>
-          </p>
-          <p class="form-text__section-first">
+          </div>
+          <div class="form-text__section-first">
             <label class="form__label" for="weight_field">Вес (кг)<sup>*</sup></label>
             <input class="form__text" type="text" name="weight-cat" id="weight_field" placeholder="7" required>
-          </p>
-          <p class="form-text__section-first">
+          </div>
+          <div class="form-text__section-first">
             <label class="form__label" for="age_field">Возраст (лет)</label>
             <input class="form__text" type="text" name="age" id="age_field" placeholder="7">
-          </p>
+          </div>
         </fieldset>
         <fieldset class="form__field">
           <h2 class="visually-hidden">Выбор конкретной программы</h2>
-          <p class="form-text__section-second">
+          <div class="form-text__section-second">
             <input class="form__radio" type="radio" id="reduce_field" name="weight" value="reduce-weight">
             <label class="form__label" for="reduce_field">Похудение</label>
-          </p>
-          <p class="form-text__section-second">
+          </div>
+          <div class="form-text__section-second">
             <input class="form__radio" type="radio" id="increase_field" name="weight" value="increase-weight">
             <label class="form__label" for="increase_field">Набор массы</label>
-          </p>
-          <p class="form-text__section-second">
+          </div>
+          <div class="form-text__section-second">
             <input class="form__radio" type="radio" id="advise_field" name="weight" value="need-advise">
             <label class="form__label" for="advise_field">Не знаю (нужен ваш совет)</label>
-          </p>
+          </div>
         </fieldset>
         <fieldset class="form__field">
           <h2 class="form__title">Контактные данные (владельца кота)</h2>
-          <p class="form-text__section-first">
+          <div class="form-text__section-first">
             <label class="form__label" for="email_field">E-mail:<sup>*</sup></label>
             <input class="form__text form__text--email" type="email" name="email" id="email_field" placeholder="kuklachev@gmail.com" required>
-          </p>
-          <p class="form-text__section-first">
+          </div>
+          <div class="form-text__section-first">
             <label class="form__label" for="phone_field">Телефон:<sup>*</sup></label>
             <input class="form__text form__text--phone" type="tel" name="phone" id="phone_field" placeholder="8 (960) 900-60-90" required>
-          </p>
+          </div>
         </fieldset>
         <fieldset class="form__field form__field--textarea">
           <h2 class="form__title">Комментарий</h2>
@@ -84,22 +84,22 @@
         </fieldset>
         <fieldset class="form__field form__field--check">
           <h2 class="form__title">Дополнительно</h2>
-          <p class="form-text__section-second">
+          <div class="form-text__section-second">
             <input class="form__check" type="checkbox" id="sugar_field" name="sugar" checked>
             <label class="form__label" for="sugar_field">Сахарозаменитель</label>
-          </p>
-          <p class="form-text__section-second">
+          </div>
+          <div class="form-text__section-second">
             <input class="form__check" type="checkbox" id="water_field" name="water">
             <label class="form__label" for="water_field">Питьевая вода</label>
-          </p>
-          <p class="form-text__section-second">
+          </div>
+          <div class="form-text__section-second">
             <input class="form__check" type="checkbox" id="milk_field" name="milk">
             <label class="form__label" for="milk_field">Молоко</label>
-          </p>
-          <p class="form-text__section-second">
+          </div>
+          <div class="form-text__section-second">
             <input class="form__check" type="checkbox" id="vitamins_field" name="vitamins">
             <label class="form__label" for="vitamins_field">Витамины</label>
-          </p>
+          </div>
         </fieldset>
         <button class="form__send button" type="submit">Отправить заявку</button>
         <p class="form__note"><sup>*</sup>- Обязательные поля</p>
@@ -110,7 +110,7 @@
         <div class="container">
           <div class="contacts__wrapper">
             <h2 class="visually-hidden">Наши контакты</h2>
-            <b class="contacts__content">Приглашаем к сотрудничеству дилеров</b>
+            <b class="contacts__content">Приглашаем к сотрудничеству дилеров!</b>
             <p class="contacts__info">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
           </div>
         </div>
@@ -139,10 +139,10 @@
               </a>
             </li>
           </ul>
-          <div class="footer__copyrite copyrite">
-            <a class="copyrite__link" href="https://htmlacademy.ru/intensive/adaptive" target="blank">HTML-academy</a>
-            <a class="copyrite__logo" href="https://htmlacademy.ru/intensive/adaptive" target="blank">
-              <img class="copyrite__logo-img" src="http://placehold.it/27x34" alt="Логотип HTML-academy">
+          <div class="footer__copyright copyright">
+            <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive" target="blank">HTML-academy</a>
+            <a class="copyright__logo" href="https://htmlacademy.ru/intensive/adaptive" target="blank">
+              <img class="copyright__logo-img" src="http://placehold.it/27x34" width="27" height="34" alt="Логотип HTML-academy">
             </a>
           </div>
         </div>
