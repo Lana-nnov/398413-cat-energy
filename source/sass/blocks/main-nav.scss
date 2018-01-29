@@ -1,7 +1,8 @@
 .main-nav {
   padding-left: 20px;
   padding-right: 20px;
-    @include container;
+
+  @include container;
 }
 
 .main-nav__logo-wrapper {

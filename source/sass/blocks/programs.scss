@@ -1,7 +1,8 @@
 .programs {
   padding-left: 20px;
   padding-right: 20px;
-    @include container;
+
+  @include container;
   outline: 1px solid red;
 }
 

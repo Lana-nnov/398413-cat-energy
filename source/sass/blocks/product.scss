@@ -2,7 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 25px;
-    @include container;
+
+  @include container;
   outline: 1px solid green;
 
   &--add {

@@ -6,7 +6,8 @@
   padding-top: 1px;
   padding-left: 20px;
   padding-right: 20px;
-    @include container;
+
+  @include container;
 }
 
 .example__title {
@@ -77,7 +78,8 @@
   padding-bottom: 38px;
   margin-right: 30px;
   margin-left: 30px;
-    @include container;
+
+  @include container;
 }
 
 .example__toggle {

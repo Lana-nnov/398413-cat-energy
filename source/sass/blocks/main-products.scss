@@ -8,7 +8,8 @@
 .main-products__more {
   padding-top: 23px;
   padding-bottom: 25px;
-    @include container;
+
+  @include container;
   outline: 1px solid green;
 }
 

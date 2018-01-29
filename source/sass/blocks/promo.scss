@@ -23,7 +23,8 @@
   line-height: 36px;
   font-weight: 400;
   text-align: center;
-    @include container;
+
+  @include container;
   outline: 1px solid red;
 
   &::after {
