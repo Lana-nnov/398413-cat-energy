@@ -2,7 +2,7 @@
   position: relative;
   min-height: 478px;
   margin-bottom: 22px;
-  color: #fff;
+  color: #ffffff;
   outline: 1px solid red;
 }
 
@@ -23,7 +23,7 @@
   line-height: 36px;
   font-weight: 400;
   text-align: center;
-  @include container;
+    @include container;
   outline: 1px solid red;
 
   &::after {

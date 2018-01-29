@@ -1,7 +1,7 @@
 .programs {
   padding-left: 20px;
   padding-right: 20px;
-  @include container;
+    @include container;
   outline: 1px solid red;
 }
 
@@ -23,14 +23,14 @@
   padding-left: 70px;
   font-size: 24px;
   line-height: 37px;
-  color: #111;
+  color: #111111;
   font-weight: 400;
   text-transform: uppercase;
 }
 
 .programs__description {
   margin-bottom: 22px;
-  font-family: Arial;
+  font-family: "Arial", sans-serif;
 }
 
 .programs__more {
@@ -39,6 +39,6 @@
   padding-bottom: 20px;
   font-size: 16px;
   line-height: 16px;
-  color: #111;
+  color: #111111;
   text-transform: uppercase;
 }

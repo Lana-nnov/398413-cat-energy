@@ -3,7 +3,7 @@
 }
 
 .contacts--main-page {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .contacts__wrapper {
@@ -12,7 +12,7 @@
   padding-right: 20px;
   padding-top: 14px;
   padding-bottom: 12px;
-  @include container;
+    @include container;
 }
 
 .contacts__content {
@@ -20,7 +20,7 @@
   width: 140px;
   font-size: 16px;
   line-height: 20px;
-  color: #111;
+  color: #111111;
   text-transform: uppercase;
 }
 
@@ -28,7 +28,7 @@
   width: 140px;
   font-size: 14px;
   line-height: 20px;
-  font-family: Arial;
+  font-family: "Arial", sans-serif;
 }
 
 .contacts__map {

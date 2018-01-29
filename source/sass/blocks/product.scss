@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 25px;
-  @include container;
+    @include container;
   outline: 1px solid green;
 
   &--add {
@@ -47,7 +47,7 @@
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  font-family: Arial;
+  font-family: "Arial", sans-serif;
 }
 
 .product__item {
