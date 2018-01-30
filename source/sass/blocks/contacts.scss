@@ -1,0 +1,39 @@
+.contacts {
+  background-color: #f2f2f2;
+}
+
+.contacts--main-page {
+  background-color: #ffffff;
+}
+
+.contacts__wrapper {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 14px;
+  padding-bottom: 12px;
+
+  @include container;
+}
+
+.contacts__content {
+  padding-top: 14px;
+  width: 140px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111111;
+  text-transform: uppercase;
+}
+
+.contacts__info {
+  width: 140px;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.contacts__map {
+  width: 100%;
+  height: 360px;
+  outline: 1px solid green;
+}

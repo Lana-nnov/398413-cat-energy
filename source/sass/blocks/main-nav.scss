@@ -1,0 +1,42 @@
+.main-nav {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @include container;
+}
+
+.main-nav__logo-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.main-nav__logo {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.main-nav__img--logo {
+  width: 33px;
+  margin-right: 55px;
+}
+
+.main-nav__img--text {
+  width: 101px;
+}
+
+.main-nav__toggle {
+  position: absolute;
+  top: 28px;
+  right: 30px;
+}

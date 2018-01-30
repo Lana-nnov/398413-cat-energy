@@ -1,0 +1,99 @@
+.form {
+  @include container;
+}
+
+.form__info {
+  padding-right: 50px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.form__field {
+  padding: 0;
+  padding-top: 30px;
+  margin: 0;
+  border: none;
+  outline: 1px solid green;
+
+  &--check {
+    margin-bottom: 15px;
+  }
+
+  &--textarea {
+    padding-top: 10px;
+  }
+}
+
+.form__title {
+  margin-top: 0;
+  margin-bottom: 33px;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.form-text__section-first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  outline: 1px solid green;
+
+  &:last-child {
+    margin-bottom: 18px;
+  }
+}
+
+.form__label {
+  margin-right: 15px;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.form__text {
+  flex-grow: 1;
+  padding-top: 11px;
+  padding-bottom: 12px;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.form-text__section-second {
+  margin-bottom: 25px;
+}
+
+.form__radio {
+  margin-right: 30px;
+}
+
+.form__comment {
+  width: 275px;
+  height: 140px;
+  font-size: 16px;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+.form__check {
+  margin-right: 30px;
+}
+
+.form__field--check .form__title {
+  margin-bottom: 40px;
+}
+
+.form__send {
+  width: 100%;
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+}
+
+.form__note {
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}

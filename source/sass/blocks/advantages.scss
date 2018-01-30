@@ -1,0 +1,30 @@
+.advantages {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 45px;
+
+  @include container;
+  outline: 1px solid red;
+}
+
+.advantages__title {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  line-height: 60px;
+  font-weight: 400;
+  color: #111111;
+}
+
+.advantages__list {
+  padding-left: 0;
+  list-style: none;
+  font-family: "Arial", sans-serif;
+}
+
+.advantages__item {
+  padding-bottom: 5px;
+  padding-left: 80px;
+  margin-bottom: 22px;
+  outline: 1px solid green;
+}
