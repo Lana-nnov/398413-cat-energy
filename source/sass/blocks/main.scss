@@ -14,24 +14,23 @@
   }
 }
 
-.main__promo {
-  display: block;
-  width: 180px;
-  min-height: 100px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 35px;
-  padding-top: 188px;
-  padding-left: 50px;
-  padding-right: 50px;
-  font-size: 16px;
-  line-height: 18px;
-  font-family: "Arial", sans-serif;
-  color: #ffffff;
-  text-align: center;
-  background-image: url("../img/gift-photo-mobile@1x.jpg");
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-color: #7cc053;
-  outline: 1px solid red;
+@media (min-width: $tablet-width) {
+  .main__title {
+    margin-top: 47px;
+    font-size: 60px;
+    line-height: 60px;
+
+    &--form {
+      margin-bottom: 57px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main__title {
+
+    &--form {
+      margin-bottom: 35px;
+    }
+  }
 }

@@ -13,3 +13,13 @@
   font-family: "Arial", sans-serif;
   color: #444444;
 }
+
+@media (min-width: $tablet-width) {
+  .copyright {
+    padding-top: 39px;
+  }
+
+  .copyright__link {
+    padding-right: 20px;
+  }
+}

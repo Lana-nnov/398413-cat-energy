@@ -1,7 +1,4 @@
 .main-nav {
-  padding-left: 20px;
-  padding-right: 20px;
-
   @include container;
 }
 
@@ -39,4 +36,32 @@
   position: absolute;
   top: 28px;
   right: 30px;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    outline: 1px solid red;
+  }
+
+  .main-nav__logo-wrapper {
+    width: 175px;
+    outline: 1px solid red;
+  }
+
+  .main-nav__toggle {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav {
+    position: relative;
+    z-index: 2;
+  }
+
+  .main-nav__logo-wrapper {
+    width: 205px;
+  }
 }
