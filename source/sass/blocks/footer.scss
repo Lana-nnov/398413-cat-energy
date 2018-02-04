@@ -13,8 +13,37 @@
 
 .footer__logo {
   display: block;
-  padding-top: 33px;
+  padding-top: 40px;
   padding-bottom: 27px;
   text-align: center;
   border-bottom: 1px solid blue;
+}
+
+.footer__social {
+  margin-top: 25px;
+  margin-bottom: 8px;
+}
+
+@media (min-width: $tablet-width) {
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__social {
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .footer__logo {
+    padding-top: 55px;
+  }
+
+  .footer__social {
+    margin-top: 46px;
+  }
 }

@@ -1,3 +1,26 @@
 .header {
   outline: 1px solid red;
 }
+
+@media (min-width: $desktop-width) {
+  .header {
+    position: relative;
+    margin-bottom: 65px;
+
+    &--main {
+      margin-bottom: 80px;
+    }
+
+    &--main::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 47%;
+      height: 645px;
+      background-color: #64a83b;
+      background-image: url("../img/index-background-mobile@1x.jpg");
+      background-size: cover;
+    }
+  }
+}

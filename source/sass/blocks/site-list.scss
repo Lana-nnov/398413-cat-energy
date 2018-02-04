@@ -15,3 +15,33 @@
   text-transform: uppercase;
   text-align: center;
 }
+
+@media (min-width: $tablet-width) {
+  .site-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 445px;
+    outline: 1px solid red;
+  }
+
+  .site-list__link {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list {
+    width: 482px;
+  }
+
+  .site-list--main .site-list__link {
+    color: #ffffff;
+  }
+
+  .site-list__link {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}

@@ -9,7 +9,7 @@
 }
 
 .form__field {
-  padding: 0;
+  padding-botom: 0;
   padding-top: 30px;
   margin: 0;
   border: none;
@@ -96,4 +96,204 @@
   margin-bottom: 30px;
   text-align: center;
   font-family: "Arial", sans-serif;
+}
+
+@media (min-width: $tablet-width) {
+  .form {
+    margin-bottom: 80px;
+  }
+
+  .form__info {
+    width: 323px;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .form__field {
+    padding-left: 40px;
+    padding-top: 36px;
+    padding-bottom: 2px;
+
+    &:nth-child(2) {
+      margin-bottom: 53px;
+    }
+
+    &:nth-child(3) {
+      margin-bottom: 47px;
+    }
+  }
+
+  .form__label {
+    font-size: 20px;
+  }
+
+  .form__text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .form-text__section-first {
+    margin-bottom: 20px;
+  }
+
+  .form__radio {
+    margin-right: 30px;
+  }
+
+  .form-text__section-second {
+    margin-bottom: 29px;
+
+    &:last-child {
+      margin-bottom: 28px;
+    }
+  }
+
+  .form__title {
+    margin-bottom: 78px;
+    font-size: 36px;
+  }
+
+  .form__field--textarea {
+    padding-top: 55px;
+    margin-bottom: 30px;
+    outline: 1px solid red;
+  }
+
+  .form__comment {
+    width: 630px;
+    height: 170px;
+  }
+
+  .form__field--check {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 40px;
+    margin-bottom: 9px;
+  }
+
+  .form__field--check .form__title {
+    width: 630px;
+    margin-bottom: 72px;
+  }
+
+  .form__field--check .form-text__section-second {
+    width: 285px;
+    outline: 1px solid red;
+    margin-bottom: 48px;
+  }
+
+  .form__send {
+    display: inline-block;
+    width: 280px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 40px;
+  }
+
+  .form__note {
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 85px;
+    outline: 1px solid red;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: top;
+  }
+
+  .form__info {
+    width: 327px;
+    padding-left: 0;
+    padding-right: 327px;
+    margin-bottom: 67px;
+  }
+
+  .form__field {
+    padding-top: 0;
+
+    &:nth-child(2) {
+      width: 568px;
+      padding-left: 0;
+    }
+
+    &:nth-child(3) {
+      width: 568px;
+      padding-left: 0;
+      margin-bottom: 75px;
+    }
+
+    &:nth-child(4) {
+      width: 1220px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding-left: 0;
+      margin-bottom: 57px;
+    }
+  }
+
+  .form-text__section-first {
+    width: 570px;
+    outline: 1px solid red;
+  }
+
+  .form-text__section-second {
+    margin-top: 32px;
+  }
+
+  .form__title {
+    width: 1220px;
+  }
+
+  .form__field--textarea {
+    padding-left: 0;
+    margin-bottom: 64px;
+  }
+
+  .form__comment {
+    width: 1220px;
+  }
+
+  .form__field--check {
+    justify-content: flex-start;
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 18px;
+  }
+
+  .form__field--check .form__title {
+    width: 1220px;
+    padding-left: 0;
+    margin-bottom: 40px;
+  }
+
+  .form__field--check .form-text__section-second {
+    width: 243px;
+    margin-right: 80px;
+
+    &:nth-child(4n+1) {
+      margin-right: 0;
+    }
+  }
+
+  .form__note {
+    width: 570px;
+    margin-bottom: 17px;
+    outline: 1px solid red;
+    text-align: left;
+  }
+
+  .form__send {
+    width: 570px;
+    margin-left: 0;
+  }
 }

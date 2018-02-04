@@ -1,16 +1,33 @@
 .social {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 78px;
+  padding-right: 69px;
   list-style: none;
 }
 
 .social__item {
   width: 20px;
   height: 20px;
+  margin-right: 35px;
+  margin-bottom: 10px;
   outline: 1px solid green;
+
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .social {
+    width: 135px;
+    padding-right: 10px;
+    padding-left: 40px;
+  }
+
+  .social__item {
+    width: 30px;
+    height: 30px;
+    margin-right: 22px;
+  }
 }

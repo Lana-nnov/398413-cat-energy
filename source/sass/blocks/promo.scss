@@ -1,5 +1,4 @@
 .promo {
-  position: relative;
   min-height: 478px;
   margin-bottom: 22px;
   color: #ffffff;
@@ -7,31 +6,42 @@
 }
 
 .promo__text {
-  min-height: 304px;
-  background-image: url("../img/index-background-mobile@1x.jpg");
+  background-image: url("../img/index-background-mobile@1x.jpg"), linear-gradient(to bottom, #65a93c 305px, #ffffff 306px);
   background-position: center 0;
   background-repeat: no-repeat;
   background-color: #64a83b;
 }
 
 .promo__title {
-  position: relative;
+  width: 280px;
   padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0;
   margin-bottom: 25px;
   font-size: 36px;
   line-height: 36px;
   font-weight: 400;
   text-align: center;
-
-  @include container;
   outline: 1px solid red;
+}
+
+.promo__slogan {
+  position: relative;
+  width: 205px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 286px;
+  text-align: center;
+  text-transform: uppercase;
 
   &::after {
     content: "";
     position: absolute;
-    top: 165px;
-    left: 20px;
+    bottom: -14px;
+    left: -38px;
     width: 280px;
     height: 270px;
     background-image: url("../img/index-can-mobile@1x.png");
@@ -41,17 +51,101 @@
   }
 }
 
-.promo__slogan {
-  text-align: center;
-  text-transform: uppercase;
+.promo__link {
+  display: block;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
 }
 
-.promo__link {
-  position: absolute;
-  width: 280px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  outline: 1px solid red;
+@media (min-width: $tablet-width) {
+  .promo {
+    color: #111111;
+    min-height: 858px;
+    margin-bottom: 0;
+
+    @include container;
+  }
+
+  .promo__text {
+    min-height: auto;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 26px;
+    background: none;
+    outline: 1px solid green;
+  }
+
+  .promo__title {
+    padding-top: 47px;
+    padding-left: 0;
+    margin-bottom: 40px;
+    width: auto;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+  }
+
+  .promo__slogan {
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+
+    &::after {
+      bottom: -608px;
+      left: -90px;
+      width: 709px;
+      height: 609px;
+      background-size: cover;
+      z-index: -1;
+    }
+  }
+
+  .promo__link {
+    width: 192px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 93px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .promo {
+    min-height: 572px;
+    margin-bottom: 0;
+  }
+
+  .promo__text {
+    width: 490px;
+    padding-top: 50px;
+    padding-left: 85px;
+    padding-right: 85px;
+    margin-bottom: 36px;
+  }
+
+  .promo__title {
+    padding-top: 50px;
+  }
+
+  .promo__slogan {
+    &::after {
+      top: -240px;
+      left: 412px;
+      z-index: 1;
+      width: 453px;
+      height: 472px;
+    }
+  }
+
+  .promo__link {
+    margin-left: 85px;
+  }
 }
