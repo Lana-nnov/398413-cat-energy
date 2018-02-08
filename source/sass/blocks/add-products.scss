@@ -68,7 +68,6 @@
 
 @media (min-width: $tablet-width) {
   .add-products {
-
     &::before {
       content: "";
       position: absolute;
@@ -109,7 +108,7 @@
     background-position: center center;
     background-size: cover;
 
-      &::before {
+    &::before {
       top: 65px;
       left: 90px;
       margin-left: 0;

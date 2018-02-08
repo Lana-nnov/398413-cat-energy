@@ -48,8 +48,7 @@
   }
 
   .site-list__item--active .site-list__link {
-
-    &:after {
+    &::after {
       content: "";
       position: absolute;
       bottom: 14px;
@@ -82,7 +81,7 @@
   .site-list--main .site-list__link {
     color: #ffffff;
 
-    &:after {
+    &::after {
       background-color: #ffffff;
     }
 

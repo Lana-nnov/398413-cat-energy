@@ -1,5 +1,4 @@
 .form {
-
   @include container;
 }
 
@@ -40,28 +39,28 @@
     }
   }
 
-    &:nth-child(4) {
-      position: relative;
-      padding-top: 31px;
+  &:nth-child(4) {
+    position: relative;
+    padding-top: 31px;
 
-      &::before {
-        content: "";
-        position: absolute;
-        right: 50%;
-        top: 0;
-        width: 50vw;
-        height: 1px;
-        background-color: #ededed;
-    }
+    &::before {
+      content: "";
+      position: absolute;
+      right: 50%;
+      top: 0;
+      width: 50vw;
+      height: 1px;
+      background-color: #ededed;
+  }
 
     &::after {
-        content: "";
-        position: absolute;
-        left: 50%;
-        top: 0;
-        width: 50vw;
-        height: 1px;
-        background-color: #ededed;
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 0;
+      width: 50vw;
+      height: 1px;
+      background-color: #ededed;
     }
   }
 
@@ -170,7 +169,7 @@
   cursor: pointer;
 
   &::before {
-    content:"";
+    content: "";
     position: absolute;
     top: -6px;
     left: 0;
@@ -183,16 +182,14 @@
 
 
 .form__radio + .form__label:active {
-
   &::before {
     opacity: 0.3;
   }
 }
 
 .form__radio:checked + .form__label {
-
   &::after {
-    content:"";
+    content: "";
     position: absolute;
     top: 3px;
     left: 9px;
@@ -204,7 +201,6 @@
 }
 
 .form__radio:checked + .form__label:active {
-
   &::after {
     opacity: 0.3;
   }
@@ -234,7 +230,7 @@
   cursor: pointer;
 
   &::before {
-    content:"";
+    content: "";
     position: absolute;
     top: -6px;
     left: 0;
@@ -246,16 +242,14 @@
 
 
 .form__check + .form__label:active {
-
   &::before {
     opacity: 0.3;
   }
 }
 
 .form__check:checked + .form__label {
-
   &::after {
-    content:"";
+    content: "";
     position: absolute;
     top: 2px;
     left: 5px;
@@ -317,7 +311,6 @@
     }
 
     &:nth-child(4) {
-
       &::before {
         width: 0;
         height: 0;
@@ -369,14 +362,13 @@
   }
 
   .form__radio:checked + .form__label {
-
-  &::after {
-    top: 0;
-    left: 37px;
-    height: 18px;
-    width: 18px;
+    &::after {
+      top: 0;
+      left: 37px;
+      height: 18px;
+      width: 18px;
+    }
   }
-}
 
   .form__title {
     margin-bottom: 80px;
@@ -384,7 +376,7 @@
 
     &::before {
       margin-top: 15px;
-  }
+    }
 
     &::after {
       top: 15px;
@@ -460,7 +452,6 @@
   }
 
   .form__check:checked + .form__label {
-
     &::after {
       top: 2px;
       left: 10px;
@@ -555,7 +546,6 @@
   }
 
   .form__radio + .form__label {
-
     &::before {
       top: -11px;
       left: 26px;

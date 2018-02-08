@@ -28,7 +28,7 @@
   font-weight: 400;
   text-transform: uppercase;
 
-  &:before {
+  &::before {
     content: "";
     position: absolute;
     top: -6px;
@@ -94,7 +94,6 @@
   }
 
   &:hover {
-
     &::before {
       left: 105px;
       background-image: url("../img/icon-right-arrow-long.svg");
@@ -107,7 +106,7 @@
       top: 14px;
       width: 12px;
       height: 2.5px;
-      background-color: #3F4242;
+      background-color: #3f4242;
     }
   }
 
@@ -172,7 +171,6 @@
     }
 
     &:hover {
-
       &::before {
         top: 12px;
         left: 140px;
@@ -203,7 +201,7 @@
       background-image: url("../img/icon-cat-pro.svg");
       background-repeat: no-repeat;
     }
-}
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -228,7 +226,7 @@
     margin-top: 70px;
     margin-bottom: 75px;
 
-    &:before {
+    &::before {
       top: -30px;
       left: 0;
       width: 100px;

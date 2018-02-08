@@ -10,11 +10,6 @@
 
   @include container;
 
-  &--form {
-    padding-bottom: 0;
-    margin-bottom: 24px;
-  }
-
   &::before {
     content: "";
     position: absolute;
@@ -36,6 +31,8 @@
   }
 
   &--form {
+    padding-bottom: 0;
+    margin-bottom: 24px;
     margin-bottom: 24px;
 
     &::before {

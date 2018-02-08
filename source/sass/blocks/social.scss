@@ -37,12 +37,6 @@
   }
 }
 
-.social__link:hover {
-  svg {
-    fill: #68b738;
-  }
-}
-
 @media (min-width: $tablet-width) {
   .social {
     width: 135px;
@@ -61,17 +55,17 @@
     height: 30px;
   }
 
-  .social__link--vk svg{
+  .social__link--vk svg {
     width: 30px;
     height: 16px;
   }
 
-  .social__link--insta svg{
+  .social__link--insta svg {
     width: 23px;
     height: 23px;
   }
 
-  .social__link--fb svg{
+  .social__link--fb svg {
     width: 14px;
     height: 28px;
   }
