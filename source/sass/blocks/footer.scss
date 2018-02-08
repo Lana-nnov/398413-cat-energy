@@ -1,6 +1,5 @@
 .footer {
   background-color: #f2f2f2;
-  outline: 1px solid red;
 }
 
 .footer__wrapper {
@@ -16,12 +15,24 @@
   padding-top: 40px;
   padding-bottom: 27px;
   text-align: center;
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid #d9d9d9;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
 
 .footer__social {
   margin-top: 25px;
   margin-bottom: 8px;
+}
+
+.footer__copyright {
+  border-top: 1px solid #d9d9d9;
 }
 
 @media (min-width: $tablet-width) {
@@ -32,9 +43,18 @@
     text-align: center;
   }
 
+  .footer__logo {
+    padding-top: 34px;
+    border: none;
+  }
+
   .footer__social {
     margin-top: 35px;
     margin-bottom: 20px;
+  }
+
+  .footer__copyright {
+    border: none;
   }
 }
 

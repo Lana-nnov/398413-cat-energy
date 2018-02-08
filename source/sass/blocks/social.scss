@@ -11,10 +11,35 @@
   height: 20px;
   margin-right: 35px;
   margin-bottom: 10px;
-  outline: 1px solid green;
 
   &:nth-child(3n) {
     margin-right: 0;
+  }
+}
+
+.social__link {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    svg {
+      fill: #68b738;
+    }
+  }
+
+  &:active {
+    svg {
+      fill: rgba(104, 183, 56, 0.3);
+    }
+  }
+}
+
+.social__link:hover {
+  svg {
+    fill: #68b738;
   }
 }
 
@@ -29,5 +54,25 @@
     width: 30px;
     height: 30px;
     margin-right: 22px;
+  }
+
+  .social__link {
+    width: 30px;
+    height: 30px;
+  }
+
+  .social__link--vk svg{
+    width: 30px;
+    height: 16px;
+  }
+
+  .social__link--insta svg{
+    width: 23px;
+    height: 23px;
+  }
+
+  .social__link--fb svg{
+    width: 14px;
+    height: 28px;
   }
 }
