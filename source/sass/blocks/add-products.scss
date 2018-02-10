@@ -53,10 +53,10 @@
   background-repeat: no-repeat;
   background-color: #7cc053;
 
-    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-      background-image: url("../img/gift-photo-mobile@2x.jpg");
-      background-size: 280px auto;
-    }
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/gift-photo-mobile@2x.jpg");
+    background-size: 280px auto;
+  }
 
   &::before {
     content: "";
