@@ -213,6 +213,7 @@
   font-size: 16px;
   line-height: 38px;
   text-transform: uppercase;
+  border: 1px solid #cdcdcd;
 }
 
 .form__check {
@@ -386,7 +387,7 @@
   .form__title span {
     width: auto;
     max-width: 515px;
-    padding-right: 40px;
+    padding-right: 30px;
 
     &::before {
       content: "";
@@ -402,9 +403,9 @@
       content: "";
       position: absolute;
       top: 15px;
-      left: -70px;
+      left: -45px;
       height: 3px;
-      width: 70px;
+      width: 45px;
       background-color: #ffffff;
     }
   }
@@ -570,7 +571,7 @@
 
   .form__field--textarea {
     padding-left: 0;
-    margin-bottom: 64px;
+    margin-bottom: 67px;
   }
 
   .form__comment {

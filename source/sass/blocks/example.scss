@@ -217,19 +217,20 @@
   .example__img {
     position: absolute;
     left: 50%;
-    margin-left: -306px;
-    bottom: 87px;
-    width: 612px;
+    margin-left: -335px;
+    bottom: 77px;
+    width: 690px;
     height: 517px;
   }
 
   .example__img--before {
     z-index: 2;
-    clip: rect(0, 306px, 517px, 0);
+    clip: rect(0, 335px, 517px, 0);
   }
 
   .example__img--after {
     display: block;
+    clip: rect(0, 690px, 517px, 335px);
   }
 
   .example__wrapper-controls {
@@ -368,6 +369,17 @@
 
   .example__img {
     top: -190px;
-    margin-left: 0;
+    margin-left: -35px;
+  }
+
+  .example__img--before {
+    z-index: 2;
+    margin-left: -35px;
+    clip: rect(0, 365px, 517px, 0);
+  }
+
+  .example__img--after {
+    display: block;
+    clip: rect(0, 690px, 517px, 365px);
   }
 }
