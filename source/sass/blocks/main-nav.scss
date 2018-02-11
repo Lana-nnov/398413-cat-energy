@@ -61,6 +61,7 @@
   .main-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     @include container;
   }
@@ -69,6 +70,15 @@
     width: 175px;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .main-nav__img--logo {
+    width: 172px;
+    height: 62px;
+  }
+
+  .main-nav__img--text {
+    display: none;
   }
 
   .main-nav__toggle {
@@ -94,5 +104,10 @@
 
   .main-nav__logo-wrapper {
     width: 205px;
+  }
+
+  .main-nav__img--logo {
+    width: 203px;
+    height: 61px;
   }
 }
