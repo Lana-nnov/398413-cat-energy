@@ -10,7 +10,7 @@
     top: 15px;
     left: 50%;
     height: 3px;
-    width: 50vw;
+    width: calc(50vw - 10px);
     background-color: #68b738;
     z-index: -2;
   }
@@ -79,7 +79,7 @@
       top: 20px;
       right: 50%;
       height: 3px;
-      width: 50vw;
+      width: calc(50vw - 10px);
       background-color: #68b738;
       z-index: -2;
     }
@@ -130,6 +130,9 @@
 @media (min-width: $desktop-width) {
   .add-products {
     position: relative;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .add-products__wrapper {
@@ -145,7 +148,7 @@
 
   .add-products__promo {
     position: absolute;
-    right: 153px;
+    right: 65px;
     top: 115px;
     width: 161px;
     height: 40px;

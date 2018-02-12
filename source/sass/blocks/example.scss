@@ -48,6 +48,7 @@
   padding-bottom: 15px;
   text-align: center;
   border: 1px solid #cdcdcd;
+  border-radius: 3px;
 }
 
 .example__value {
@@ -104,6 +105,7 @@
 }
 
 .example__toggle {
+  position: relative;
   width: 85px;
   font-size: 16px;
   line-height: 20px;
@@ -112,6 +114,26 @@
 
   &--left {
     text-align: right;
+  }
+
+  &:hover::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #111111;
+  }
+
+  &:active::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    border-bottom: 1px dotted #111111;
   }
 }
 
@@ -312,7 +334,7 @@
   .example__wrapper {
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to right, #f2f2f2 80%, #eaeaea 20%);
+    background-image: linear-gradient(to right, #f2f2f2 60%, #eaeaea 40%);
   }
 
   .example__wrapper-text {

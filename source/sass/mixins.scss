@@ -17,3 +17,23 @@
     padding-right: 40px;
   }
 }
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    color: #444444;
+  }
+
+  &:-moz-placeholder {
+    color: #444444;
+    opacity: 1;
+  }
+
+  &::-moz-placeholder {
+    color: #444444;
+    opacity: 1;
+  }
+
+  &:-ms-input-placeholder {
+    color: #444444;
+  }
+}
