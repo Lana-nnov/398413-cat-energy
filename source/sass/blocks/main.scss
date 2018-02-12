@@ -26,7 +26,7 @@
     left: 50%;
     bottom: -1px;
     height: 1px;
-    width: 50vw;
+    width: calc(50vw - 10px);
     background-color: #ededed;
   }
 
