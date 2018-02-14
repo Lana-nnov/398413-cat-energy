@@ -13,20 +13,11 @@
   &::before {
     content: "";
     position: absolute;
-    right: 50%;
-    bottom: -1px;
-    height: 1px;
-    width: 50vw;
-    background-color: #ededed;
-  }
-
-  &::after {
-    content: "";
-    position: absolute;
     left: 50%;
     bottom: -1px;
     height: 1px;
-    width: calc(50vw - 10px);
+    width: 100vw;
+    transform: translateX(-50%);
     background-color: #ededed;
   }
 

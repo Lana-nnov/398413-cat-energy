@@ -34,11 +34,11 @@
   &::after {
     content: "";
     position: absolute;
-    top: 0;
+    top: -3px;
     left: 0;
     width: 60px;
     height: 60px;
-    background-position: center 0;
+    background-position: center 2px;
     background-repeat: no-repeat;
     background-color: #68b738;
   }
@@ -89,6 +89,21 @@
 }
 
 @media (min-width: $tablet-width) {
+  .advantages {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      width: 100vw;
+      height: 1px;
+      transform: translateX(-50%);
+      background-color: #ededed;
+    }
+  }
+
   .advantages__title {
     margin-top: 46px;
     margin-bottom: 72px;
@@ -183,9 +198,19 @@
     height: 80px;
     background-position: center center;
   }
+
+  .advantages__item span {
+    display: block;
+  }
 }
 
 @media (min-width: $desktop-width) {
+  .advantages {
+    &::before {
+      height: 0;
+    }
+  }
+
   .advantages__title {
     margin-top: 50px;
   }
