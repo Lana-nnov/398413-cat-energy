@@ -17,15 +17,15 @@
   text-align: center;
 
   &::before {
-      content: "";
-      position: absolute;
-      left: 50%;
-      top: 0;
-      width: 100vw;
-      height: 1px;
-      transform: translateX(-50%);
-      background-color: #ededed;
-    }
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 100vw;
+    height: 1px;
+    transform: translateX(-50%);
+    background-color: #ededed;
+  }
 
   &[href]:hover {
     color: rgba(17, 17, 17, 0.6);

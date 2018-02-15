@@ -306,15 +306,12 @@
 
   .product__name {
     width: 159px;
-    padding-right: 5px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .product__basket {
     width: 168px;
   }
 
-  .product__name {
-    padding-left: 0;
-    padding-right: 0;
-  }
 }
