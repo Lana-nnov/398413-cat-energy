@@ -1,3 +1,7 @@
+.main {
+  overflow-x: hidden;
+}
+
 .main__title {
   position: relative;
   margin-top: 15px;
@@ -39,7 +43,7 @@
 
 @media (min-width: $tablet-width) {
   .main__title {
-    margin-top: 38px;
+    margin-top: 37px;
     font-size: 60px;
     line-height: 60px;
 
@@ -61,6 +65,8 @@
 
 @media (min-width: $desktop-width) {
   .main__title {
+    margin-top: 56px;
+
     &--form {
       margin-bottom: 35px;
     }

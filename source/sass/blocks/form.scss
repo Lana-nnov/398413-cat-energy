@@ -1,4 +1,5 @@
 .form {
+
   @include container;
 }
 
@@ -117,7 +118,7 @@
 .form__icon-phone {
   position: absolute;
   top: 9px;
-  right: 8px;
+  right: 12px;
   fill: #222222;
 }
 
@@ -206,6 +207,7 @@
 
   &::before {
     border: 1px solid #bababa;
+    outline: 1px solid #bababa;
   }
 }
 
@@ -300,6 +302,7 @@
 
   &::before {
     border: 1px solid #bababa;
+    outline: 2px solid #bababa;
   }
 }
 
