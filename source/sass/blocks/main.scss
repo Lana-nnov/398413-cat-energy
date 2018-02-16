@@ -1,3 +1,7 @@
+.main {
+  overflow-x: hidden;
+}
+
 .main__title {
   position: relative;
   margin-top: 15px;
@@ -13,20 +17,11 @@
   &::before {
     content: "";
     position: absolute;
-    right: 50%;
-    bottom: -1px;
-    height: 1px;
-    width: 50vw;
-    background-color: #ededed;
-  }
-
-  &::after {
-    content: "";
-    position: absolute;
     left: 50%;
     bottom: -1px;
     height: 1px;
-    width: calc(50vw - 10px);
+    width: 100vw;
+    transform: translateX(-50%);
     background-color: #ededed;
   }
 
@@ -48,7 +43,7 @@
 
 @media (min-width: $tablet-width) {
   .main__title {
-    margin-top: 38px;
+    margin-top: 37px;
     font-size: 60px;
     line-height: 60px;
 
@@ -70,6 +65,8 @@
 
 @media (min-width: $desktop-width) {
   .main__title {
+    margin-top: 56px;
+
     &--form {
       margin-bottom: 35px;
     }
