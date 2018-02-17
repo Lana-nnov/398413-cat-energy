@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
     <script src="js/picturefill.js" async></script>
+    <link href="fonts/oswaldregular.woff2" rel="preload" as="font">
+    <link href="fonts/oswaldmedium.woff2" rel="preload" as="font">
     <title>HTML Academy: Кэт энерджи - каталог товаров</title>
   </head>
   <body>
@@ -334,58 +336,60 @@
         </div>
       </section>
       <section class="add-products">
-      <div class="add-products__wrapper">
-        <h2 class="add-products__title">Дополнительные товары</h2>
-      </div>
-        <article class="product product--add">
-          <a class="product__link" href="shugar.html">
-            <h3 class="product__name">Сахарозаменитель</h3>
-          </a>
-          <ul class="product__description">
-            <li class="product__item">
-              <p class="product__title">1 Упаковка (100 г)</p>
-              <p class="product__param">100 Р</p>
-            </li>
-          </ul>
-          <a class="product__basket button" href="#">Заказать</a>
-        </article>
-        <article class="product product--add">
-          <a class="product__link" href="water.html">
-            <h3 class="product__name">Питьевая вода</h3>
-          </a>
-          <ul class="product__description">
-            <li class="product__item">
-              <p class="product__title">5 литров</p>
-              <p class="product__param">50 Р</p>
-            </li>
-          </ul>
-          <a class="product__basket button" href="#">Заказать</a>
-        </article>
-        <article class="product product--add">
-          <a class="product__link" href="milk.html">
-            <h3 class="product__name">Молоко</h3>
-          </a>
-          <ul class="product__description">
-            <li class="product__item">
-              <p class="product__title">1 литр</p>
-              <p class="product__param">100 Р</p>
-            </li>
-          </ul>
-          <a class="product__basket button" href="#">Заказать</a>
-        </article>
-        <article class="product product--add">
-          <a class="product__link" href="vitamins.html">
-            <h3 class="product__name">Витамины</h3>
-          </a>
-          <ul class="product__description">
-            <li class="product__item">
-              <p class="product__title">1 упаковка (30 г)</p>
-              <p class="product__param">300 Р</p>
-            </li>
-          </ul>
-          <a class="product__basket button" href="#">Заказать</a>
-        </article>
-        <a class="add-products__promo" href="#">Закажите все <br> и получите чехол для кота в подарок!</a>
+        <div class="add-products__wrapper">
+          <h2 class="add-products__title">Дополнительные товары</h2>
+        </div>
+        <div class="add-products__container">
+          <article class="product product--add">
+            <a class="product__link" href="shugar.html">
+              <h3 class="product__name">Сахарозаменитель</h3>
+            </a>
+            <ul class="product__description">
+              <li class="product__item">
+                <p class="product__title">1 Упаковка (100 г)</p>
+                <p class="product__param">100 Р</p>
+              </li>
+            </ul>
+            <a class="product__basket button" href="#">Заказать</a>
+          </article>
+          <article class="product product--add">
+            <a class="product__link" href="water.html">
+              <h3 class="product__name">Питьевая вода</h3>
+            </a>
+            <ul class="product__description">
+              <li class="product__item">
+                <p class="product__title">5 литров</p>
+                <p class="product__param">50 Р</p>
+              </li>
+            </ul>
+            <a class="product__basket button" href="#">Заказать</a>
+          </article>
+          <article class="product product--add">
+            <a class="product__link" href="milk.html">
+              <h3 class="product__name">Молоко</h3>
+            </a>
+            <ul class="product__description">
+              <li class="product__item">
+                <p class="product__title">1 литр</p>
+                <p class="product__param">100 Р</p>
+              </li>
+            </ul>
+            <a class="product__basket button" href="#">Заказать</a>
+          </article>
+          <article class="product product--add">
+            <a class="product__link" href="vitamins.html">
+              <h3 class="product__name">Витамины</h3>
+            </a>
+            <ul class="product__description">
+              <li class="product__item">
+                <p class="product__title">1 упаковка (30 г)</p>
+                <p class="product__param">300 Р</p>
+              </li>
+            </ul>
+            <a class="product__basket button" href="#">Заказать</a>
+          </article>
+        </div>
+        <a class="add-products__promo" href="#">Закажите все <br> и получите чехол для кота в подарок!</a>        
       </section>
     </main>
     <footer class="footer">

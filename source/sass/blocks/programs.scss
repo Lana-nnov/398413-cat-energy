@@ -97,16 +97,8 @@
     &::before {
       left: 105px;
       background-image: url("../img/icon-right-arrow-long.svg");
-    }
-
-    &::after {
-      content: "";
-      position: absolute;
-      left: 95px;
-      top: 14px;
-      width: 12px;
-      height: 2.5px;
-      background-color: #3f4242;
+      transform: scaleX(1.2);
+      left: 97px;
     }
   }
 
@@ -173,12 +165,7 @@
     &:hover {
       &::before {
         top: 12px;
-        left: 140px;
-      }
-
-      &::after {
-        top: 16.5px;
-        left: 129px;
+        left: 131px;
       }
     }
   }
