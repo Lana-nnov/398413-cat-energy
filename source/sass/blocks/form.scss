@@ -164,11 +164,11 @@
     outline: 2px solid #ff8282;
   }
 
-  &--email {    
+  &--email {
     padding-right: 40px;
   }
 
-  &--phone {    
+  &--phone {
     padding-right: 40px;
     width: 203px;
   }
@@ -259,20 +259,20 @@
   border: 1px solid rgba(205, 205, 205, 0.5);
 
   @include placeholder;
-  
+
   &:hover {
     border: 1px solid #cdcdcd;
   }
-  
+
   &:focus {
     outline: 2px solid #444444;
     height: 142px;
-    border: none;    
+    border: none;
   }
-  
+
   &:active {
     outline: 2px solid #444444;
-  } 
+  }
 }
 
 .form__field--textarea label{
@@ -506,7 +506,7 @@
       height: 159px;
       width: 586px;
     }
-  } 
+  }
 
   .form__field--check {
     display: flex;
