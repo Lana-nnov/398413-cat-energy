@@ -54,10 +54,6 @@
 .product--add {
   padding-bottom: 16px;
 
-  &:nth-last-child(2) {
-    margin-bottom: 40px;
-  }
-
   &::before {
     height: 0;
     width: 0;
@@ -123,11 +119,7 @@
     background-color: #f2f2f2;
 
     &:first-child {
-      border: none;
-    }
-
-    &--add:nth-last-child(2) {
-      margin-bottom: 70px;
+      border-top: none;
     }
 
     &::before {
@@ -241,10 +233,6 @@
   .product {
     margin-bottom: 6px;
     width: 245px;
-
-    &--add:nth-last-child(2) {
-      margin-bottom: 90px;
-    }
   }
 
   .product--add {
